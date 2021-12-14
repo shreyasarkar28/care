@@ -1,0 +1,27 @@
+.container-fluid {
+    margin: 0 auto;
+    width: 1200px;
+    padding: 0 15px;
+  }
+p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  .titleHolder {
+    text-align: center;
+    position: relative;
+    padding: 0 0 20px;
+    margin: 0 0 40px;
+  }
+  .slick-prev {
+    left: -50px;
+}
+.slick-next {
+  right: -50px;
+}
+
+  .slick-prev:before, .slick-next:before {
+    font-size: 35px;
+    line-height:1;
+    color: rgb(3, 11, 14);
+  }
